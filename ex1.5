@@ -1,0 +1,9 @@
+Lisp is an applicative order language, which means that all arguments are evaluated when procedure is applied.
+Normal order languages delay evaluation of procedure arguments until actual argument values are needed (lazy evaluation). 
+
+
+For the applicative order interpreter:
+    It would try evaluating the argument p, which just recursively calls itself making it endless.
+
+For normal order interpreters:
+    It wouldn't evaluate the arguments until its needed so it won't try and evaluate p because it never reaches there.
